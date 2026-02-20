@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéScope</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+
+  </head>
+  <body>
+
+    <aside class="sidebar">
+      <h2>Name</h2>
+      <div class="sidebar-content">
+        <ul id="name-list"></ul>
+      </div>
+    </aside>
+
+    <div class="main">
+      <div class="app-header">
+        <div class="logo-title">
+          <img src="./Poke_Ball.webp" alt="logo" />
+          <h1>PokéScope</h1>
+        </div>
+        <p>Explore every Pokémon instantly</p>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search Pokemon..." />
+        <button>Search</button>
+      </div>
+      
+      <div class="pokemon-result"></div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+
+  </body>
+</html>
