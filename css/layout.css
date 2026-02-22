@@ -1,5 +1,5 @@
 body{
-  height:100vh;
+  min-height:100vh;
   background:url("../assets/pokeBg.jpg") center/cover no-repeat;
 
   display:flex;
@@ -87,4 +87,59 @@ body{
   display:flex;
   flex-direction:column;
   gap:18px;
+}
+
+/*  RESPONSIVE  */
+
+/* Tablet */
+@media (max-width:1024px){
+
+  body{
+    padding:20px;
+  }
+
+  .sidebar{
+    left:20px;
+    width:220px;
+    height:380px;
+  }
+
+  .main{
+    width:380px;
+    padding:22px;
+  }
+
+}
+
+
+/* Mobile */
+@media (max-width: 768px){
+
+  body{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:flex-start;
+
+    padding:14px;
+
+    background-attachment:scroll;
+  }
+
+  .sidebar{
+    position:static;
+    transform:none;
+
+    width:100%;
+    height:180px;
+    margin-bottom:12px;
+  }
+
+  .main{
+    width:100%;
+    padding:18px;
+  }
+
 }

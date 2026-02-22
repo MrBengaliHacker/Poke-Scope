@@ -111,3 +111,37 @@
   object-fit:contain;
 }
 
+
+
+/* TABLET UI */
+@media (max-width:1024px){
+
+  .pokemon-image img{
+    width:140px;
+    height:140px;
+  }
+
+}
+
+/* MOBILE UI */
+@media (max-width:768px){
+
+  .search-box{
+    flex-direction:column;
+  }
+
+  .search-box button{
+    width:100%;
+  }
+
+  .pokemon-image img{
+    width:120px;
+    height:120px;
+  }
+
+  .pokemon-result{
+    padding:16px;
+    min-height:220px;
+  }
+
+}
