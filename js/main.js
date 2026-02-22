@@ -1,11 +1,14 @@
+import { fetchPokemon } from "./api.js";
+import { renderPokemon } from "./ui.js";
+
 const input = document.querySelector("input");
 const button = document.querySelector("button");
-import { fetchPokemon } from "./api.js";
+const result = document.querySelector(".pokemon-result");
 
 button.addEventListener("click", async ()=>{
   const name = input.value.trim();
   if(!name) return;
 
   const data = await fetchPokemon(name);
-  console.log(data);
+  renderPokemon(result,data);
 });
