@@ -5,7 +5,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/MrBengaliHacker/Poke-Scope)
 ![Last Commit](https://img.shields.io/github/last-commit/MrBengaliHacker/Poke-Scope)
 ![Top Language](https://img.shields.io/github/languages/top/MrBengaliHacker/Poke-Scope)
-![Live Demo](https://img.shields.io/badge/Live-Demo-success)(https://mrbengalihacker.github.io/Poke-Scope/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://mrbengalihacker.github.io/Poke-Scope/)
 
 🎯 **Live Demo:**  
 👉 https://mrbengalihacker.github.io/Poke-Scope/
